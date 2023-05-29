@@ -1,16 +1,31 @@
 INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Mr. Chocolate', 5, 'M', 'Brown', 'Choleric', 1);
+VALUES (
+        "Mr. Chocolate",
+        "12",
+        "M",
+        "white",
+        "melachoric",
+        "1"
+    ),
+    ("Rowdy", "25", "F", "black", "senguine", "1"),
+    (
+        "Tabitha",
+        "50",
+        "F",
+        "brown",
+        "melancholic",
+        "1"
+    ),
+    (
+        "Sergeant Brown",
+        "35",
+        "M",
+        "brown",
+        "phlegmatic",
+        "1"
+    ),
+    ("Melissa", "15", "F", "white", "choleric", "0"),
+    ("Grinch", "15", "M", "black", "phlegmatic", "1"),
+    ("Wendy", "15", "F", "black", "senguine", "1");
 INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Rowdy', 7, 'M', 'Red', 'Sanguine', 0);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Tabitha', 10, 'F', 'White', 'Melancholic', 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Sergeant Brown', 3, 'M', 'Brown', 'Choleric', 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Melissa', 2, 'F', 'Pink', 'Phlegmatic', 0);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Grinch', 15, 'M', 'Grey', 'Melancholic', 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES ('Wendy', 5, 'F', 'Purple', 'Sanguine', 0);
-INSERT INTO bears (name, age, sex, color, temperament, alive)
-VALUES (NULL, 5, 'F', 'Blue', 'Phlegmatic', 1);
+VALUES (Null, "7", "F", "black", "phlegmatic", "0");
